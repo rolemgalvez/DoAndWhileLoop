@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivideSalary", "DivideSalar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanPayment", "LoanPayment\LoanPayment.csproj", "{3BB0A603-CF3D-4DA7-B487-A137EE64879B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompoundingInterest", "CompoundingInterest\CompoundingInterest.csproj", "{8B23BA8A-642F-4B9A-B417-829525232903}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3BB0A603-CF3D-4DA7-B487-A137EE64879B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB0A603-CF3D-4DA7-B487-A137EE64879B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB0A603-CF3D-4DA7-B487-A137EE64879B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B23BA8A-642F-4B9A-B417-829525232903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B23BA8A-642F-4B9A-B417-829525232903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B23BA8A-642F-4B9A-B417-829525232903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B23BA8A-642F-4B9A-B417-829525232903}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

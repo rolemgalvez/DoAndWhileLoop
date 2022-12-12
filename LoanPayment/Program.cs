@@ -23,7 +23,7 @@ do
     if (areValidInputs == false)
     {
         Console.WriteLine();
-        Console.WriteLine("You entered an invalid input(s).");
+        Console.WriteLine("You've entered an invalid input(s).");
         runAgain = true;
     }
 
