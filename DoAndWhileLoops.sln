@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13thMonthPay", "13thMonthPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyRate", "DailyRate\DailyRate.csproj", "{42C1D159-419A-4714-AD5C-F1224F1F3223}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdinaryOvertimePayment", "OrdinaryOvertimePayment\OrdinaryOvertimePayment.csproj", "{CE35D9F5-6DE5-4A74-95EE-5C89C5FC9193}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{42C1D159-419A-4714-AD5C-F1224F1F3223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42C1D159-419A-4714-AD5C-F1224F1F3223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42C1D159-419A-4714-AD5C-F1224F1F3223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE35D9F5-6DE5-4A74-95EE-5C89C5FC9193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE35D9F5-6DE5-4A74-95EE-5C89C5FC9193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE35D9F5-6DE5-4A74-95EE-5C89C5FC9193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE35D9F5-6DE5-4A74-95EE-5C89C5FC9193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
