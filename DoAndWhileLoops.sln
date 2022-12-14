@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanPayment", "LoanPayment\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompoundingInterest", "CompoundingInterest\CompoundingInterest.csproj", "{8B23BA8A-642F-4B9A-B417-829525232903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13thMonthPay", "13thMonthPay\13thMonthPay.csproj", "{49FC5107-9A71-49F6-B41B-B32D4D3D638A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13thMonthPay", "13thMonthPay\13thMonthPay.csproj", "{49FC5107-9A71-49F6-B41B-B32D4D3D638A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyRate", "DailyRate\DailyRate.csproj", "{42C1D159-419A-4714-AD5C-F1224F1F3223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{49FC5107-9A71-49F6-B41B-B32D4D3D638A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49FC5107-9A71-49F6-B41B-B32D4D3D638A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49FC5107-9A71-49F6-B41B-B32D4D3D638A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C1D159-419A-4714-AD5C-F1224F1F3223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C1D159-419A-4714-AD5C-F1224F1F3223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C1D159-419A-4714-AD5C-F1224F1F3223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C1D159-419A-4714-AD5C-F1224F1F3223}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
