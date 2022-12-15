@@ -2,11 +2,10 @@
 Console.WriteLine("13th Month Pay");
 Console.WriteLine("--------------");
 
-bool runAgain = false;
+bool runAgain = true;
 
-do
+while (runAgain)
 {
-    runAgain = false;
     Console.WriteLine();
 
     //Get user inputs
@@ -31,7 +30,7 @@ do
         Console.WriteLine();
         decimal thirteenthMonthPay = (salary / 12) * monthsWorked;
         Console.WriteLine($"Your 13th month pay is {thirteenthMonthPay.ToString("N")}");
-        
+
         //Ask to run again
         Console.WriteLine();
         Console.Write("Enter \"yes\" to run again: ");
@@ -41,8 +40,12 @@ do
         {
             runAgain = true;
         }
+        else
+        {
+            runAgain = false;
+        }
     }
-} while (runAgain);
+}
 
 Console.WriteLine();
 Console.WriteLine("End of program.");
