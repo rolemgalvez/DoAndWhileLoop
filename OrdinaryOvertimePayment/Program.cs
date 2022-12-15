@@ -2,10 +2,9 @@
 Console.WriteLine("Ordinary Overtime Payment");
 Console.WriteLine("-------------------------");
 
-bool runAgain = false;
-do
+bool runAgain = true;
+while(runAgain)
 {
-    runAgain = false;
     Console.WriteLine();
 
     //Get user input
@@ -37,7 +36,7 @@ do
         Console.Write("Enter \"yes\" to compute again: ");
         runAgain = Console.ReadLine()?.ToLower() == "yes";
     }
-} while (runAgain);
+}
 
 Console.WriteLine();
 Console.WriteLine("End of program.");
